@@ -1,7 +1,7 @@
 let coinFlip
 coinFlip = parseInt(prompt("How many times do you want to flip the coin?"))
 
-for (var i = 0; i < coinFlip; i++) {
+for (let i = 0; i < coinFlip; i++) {
   let randomNum = Math.round(Math.random())
 
   if (randomNum === 0) {

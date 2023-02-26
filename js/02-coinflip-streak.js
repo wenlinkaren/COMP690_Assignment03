@@ -10,4 +10,4 @@ do {
   }
 
   console.log(coinFlip);
-} while (coinFlip !== "Tails");
+} while (coinFlip !== "Tails")
